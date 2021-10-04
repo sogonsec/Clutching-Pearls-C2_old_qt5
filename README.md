@@ -1,4 +1,5 @@
-# Violent Fungus C2
+# Violent Fungus C2 - DEPRECATED 
+# I am re-using the Violent Fungus name for a general pluginable malware software suite, that could have a C2 component with all the goals of the stuff below. Trading this vaporware for a new vaporware :D 
 
 I’m building a command and control (C2) program suite to learn C2 software design and implementation at a fine-grained level (using MITRE ATT&CK C2 Techniques https://attack.mitre.org/tactics/TA0011/ and existing C2 software as reference).
 
