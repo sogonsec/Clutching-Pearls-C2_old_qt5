@@ -2,7 +2,7 @@
 
 I’m building a command and control (C2) program suite to learn C2 software design and implementation at a fine-grained level (using MITRE ATT&CK C2 Techniques https://attack.mitre.org/tactics/TA0011/ and existing C2 software as reference).
 
-Additionally, I want to get proficient coding Qt C++ targeting multiple platforms. I’m aiming for a 1.0 release in 2022.
+Additionally, I want to get proficient coding Qt C++ targeting multiple platforms.
 
 Website for this project is at https://sogonsecurity.com/violentfungus-c2-project/.
 
