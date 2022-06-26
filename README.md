@@ -4,7 +4,7 @@ I’m building a command and control (C2) program suite to learn C2 software des
 
 Additionally, I want to get proficient coding Qt C++ targeting multiple platforms.
 
-Website for this project is at https://sogonsecurity.com/violentfungus-c2-project/.
+Website for this project is at https://sogonsecurity.com/violentfungus-c2/.
 
 ## Core Goals
 * Small binary size.
