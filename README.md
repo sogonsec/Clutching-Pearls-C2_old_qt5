@@ -12,8 +12,9 @@ Website for this project is at https://sogonsecurity.com/violentfungus-c2-projec
 * Able to run on smaller ARM boards with 512MB of RAM and potentially embedded devices.
 * Handle a large number of active agents.
 * Use Qt C++ as much as possible/appropriate.
-* Target GNU/Linux, NetBSD 9+, OpenBSD 6.9+, FreeBSD 13+, Microsoft Windows 10+ and Server 2016+, and Apple macOS 10.5+.
+* Target GNU/Linux, NetBSD, OpenBSD, FreeBSD, Microsoft Windows and Server, and Apple macOS.
   * Architectures should be somewhat normal including x86, x86-64, ARM32, and ARM64 in particular.
+* Open-source.
 
 ## Core Features
 * **Support a large number of server services**: HTTPS, DNS over UDP, FTP, SMB, ICMP, SMTP, raw TCP, and raw UDP, etc., shooting for more than anyone else.
