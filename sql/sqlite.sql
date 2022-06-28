@@ -82,7 +82,7 @@ create table "envelope_fault" (
 drop table if exists "envelope_chunk";
 create table "envelope_chunk" (
     id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
-    envelope_uuid text id integer,
+    envelope_uuid text, -- envelope.uuid
     start_byte_position integer,
     chunk_size integer,
     is_tranferred boolean,
