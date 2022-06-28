@@ -79,17 +79,16 @@ create table "envelope_fault" (
 );
 
 
-
-drop table if exists envelope_chunk;
-create table envelope_chunk (
+drop table if exists "envelope_chunk";
+create table "envelope_chunk" (
     id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
-    id integer,
+    envelope_uuid text id integer,
     start_byte_position integer,
     chunk_size integer,
     is_tranferred boolean,
     is_acknowledged_required boolean, 
     is_acknowledged boolean,
-    create_ts datetime DEFAULT current_timestamp
+    create_ts datetime DEFAULT current_timestamp,
     transferred_ts datetime,
     acknowledged_ts datetime
 );
