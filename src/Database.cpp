@@ -38,7 +38,7 @@ bool Database::connectToDatabase()
     // Read values from settings
     QString databaseType = settings.value("database/type", "").toString().toLower();
     if (databaseType == "sqlite") {
-        QString defaultSqliteDatabasePath = QCoreApplication::applicationDirPath() + QDir::separator() + "violentfungus.db";
+        QString defaultSqliteDatabasePath = QCoreApplication::applicationDirPath() + QDir::separator() + "clutchingpearls.db";
         QString sqliteName = settings.value("database_sqlite/path", defaultSqliteDatabasePath).toString();
         if (sqliteName == "auto") {
             sqliteName = defaultSqliteDatabasePath;

@@ -57,8 +57,8 @@ int main(int argc, char *argv[])
     QCoreApplication app(argc, argv);
     QCoreApplication::setOrganizationName("SogonSecurity");
     QCoreApplication::setOrganizationDomain("sogonsecurity.com");
-    QCoreApplication::setApplicationName("ViolentFungus");
-    QCoreApplication::setApplicationVersion("v0.1-development");
+    QCoreApplication::setApplicationName("Clutching Pearls C2");
+    QCoreApplication::setApplicationVersion("v0.1");
     QTextStream out(stdout);
     QSettings settings;
     Database database;
@@ -68,7 +68,7 @@ int main(int argc, char *argv[])
     // Banner
     QString banner;
     banner  = QCoreApplication::applicationName() + " " + QCoreApplication::applicationVersion();
-    banner += " C2 - A PoC learning project by Chris Humphries (@sogonsec)";
+    banner += " - A PoC learning project by Chris Humphries (@sogonsec)";
     //out << Qt::endl << banner << Qt::endl;
     out << "+-" << QString("-").repeated(banner.length()) << "-+" << Qt::endl
         << "| " << banner << " |" << Qt::endl
